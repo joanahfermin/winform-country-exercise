@@ -1,5 +1,5 @@
 # winform-country-exercise
- A simple WinForm application that lists contents of a single table, and has the ability to add new rows
+ A simple WinForm application that lists contents of a single table, and has the ability to add new rows.  I am sharing this code to those who are like me, beginning their journey in studying how to code in C#.
 
 # Overview
 This is a sample exercise I created while learning how to perform simple database operation using C# Winforms.  The contents of the table is retrieved on startup of the application.  The user can also add new rows by supplying the country name from the textbox and clicking the Add button.
