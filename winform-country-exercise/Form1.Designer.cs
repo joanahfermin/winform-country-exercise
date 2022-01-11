@@ -47,7 +47,7 @@ namespace winform_country_exercise
             this.lvCountry.Size = new System.Drawing.Size(715, 298);
             this.lvCountry.TabIndex = 0;
             this.lvCountry.UseCompatibleStateImageBehavior = false;
-            this.lvCountry.View = System.Windows.Forms.View.List;
+            this.lvCountry.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -63,7 +63,7 @@ namespace winform_country_exercise
             // 
             this.btnAdd.Location = new System.Drawing.Point(595, 359);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(159, 26);
+            this.btnAdd.Size = new System.Drawing.Size(159, 37);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -71,9 +71,10 @@ namespace winform_country_exercise
             // 
             // tbCountryName
             // 
+            this.tbCountryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCountryName.Location = new System.Drawing.Point(39, 359);
             this.tbCountryName.Name = "tbCountryName";
-            this.tbCountryName.Size = new System.Drawing.Size(537, 26);
+            this.tbCountryName.Size = new System.Drawing.Size(537, 30);
             this.tbCountryName.TabIndex = 2;
             // 
             // Form1
